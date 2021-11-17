@@ -1,0 +1,31 @@
+<div class="conteiner">
+  <div class="row">
+      <div class="col-12" >
+          <img src="assets\img\login.png" width="10%">
+      </div>
+  </div>
+</div>
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Digite aqui seu Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Não compartilhe suas informações com ninguém.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Digite a sua senha</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Lembrar meu Login</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Acessar</button>
+</form>
+<div class="form-floating">
+  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+    <option selected>Clique Aqui!</option>
+    <option value="1" routerLink="/Atendimento">Esqueci meu email</option>
+    <option value="2" routerLink="/Atendimento">Esqueci minha senha</option>
+  </select>
+  <label for="floatingSelect">Problemas com a sua conta?</label>
+</div>

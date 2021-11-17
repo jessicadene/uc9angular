@@ -3,7 +3,10 @@
     padding: 10px ;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    color: antiquewhite;
+  
     }
-   
+   .nav-item a{
+     color: white;
+     font-size: large;
+   }
+  

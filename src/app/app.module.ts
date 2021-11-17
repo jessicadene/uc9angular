@@ -11,8 +11,8 @@ import {MatDialogModule} from '@angular/material/dialog';
 import { HomeComponent } from './views/home/home.component';
 import { FooterComponent } from './views/footer/footer.component';
 import {MatCardModule} from '@angular/material/card';
-import { CarroselComponent } from './views/carrosel/carrosel.component';
-import { GaleriadeimagemComponent } from './views/galeriadeimagem/galeriadeimagem.component';
+import { LoginComponent } from './views/login/login.component';
+import { AtendimentoComponent } from './views/atendimento/atendimento.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +20,8 @@ import { GaleriadeimagemComponent } from './views/galeriadeimagem/galeriadeimage
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    CarroselComponent,
-    GaleriadeimagemComponent
+    LoginComponent,
+    AtendimentoComponent
   ],
   imports: [
     BrowserModule,
